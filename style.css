@@ -1,0 +1,65 @@
+body {
+    margin-top: 0;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    background-color: rgb(167, 74, 253);
+    color: azure;
+    border-radius: 0px 0px 15px 15px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 2%;
+
+}
+
+.nome {
+    width: 90%;
+    text-align: center;
+}
+
+.conteudo {
+    margin: 3%;
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.contato {
+    border-color: rgb(68, 68, 68);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px 30px;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 3%;
+}
+
+a:link {
+    color: rgb(132, 0, 255);
+  }
+  
+ 
+  a:visited {
+    color: rgb(146, 29, 255);
+  }
+  
+
+  a:hover {
+    color: rgb(20, 188, 255);
+  }
+  
+
+  a:active {
+    color: rgb(0, 119, 255);
+  }
